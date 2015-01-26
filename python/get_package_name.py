@@ -12,6 +12,8 @@ import sys
 
 from scriptUtils import utils
 
+#获取设备上当前应用的包名，结果存放于当前目录下的PackageName.txt中
+
 PATH = lambda p: os.path.abspath(p)
 
 if __name__ == "__main__":

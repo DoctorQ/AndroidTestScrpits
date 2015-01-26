@@ -12,6 +12,8 @@ import re
 
 from scriptUtils import utils
 
+#获取设备上当前应用的包信息，结果存放于当前目录下的PackageInfo.txt中
+
 tempFile = tempfile.gettempdir()
 
 def get_aapt():

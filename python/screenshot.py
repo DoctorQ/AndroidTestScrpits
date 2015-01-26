@@ -11,6 +11,8 @@ import os
 
 from scriptUtils import utils
 
+#截取当前屏幕，截屏文件保存至当前目录下的screen文件夹中
+
 PATH = lambda p: os.path.abspath(p)
 
 def screenshot():
